@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.bgContainer{
+  background-image: url('../src/assets/img/videoframe_29816.png');
+  background-size: cover;
+  background-position: 50%;
+}
+
+
+.hamburgerContainer:hover  .lineContainer{
+  border: 2px solid red;
+}
+
+.curious{
+  font-size: 5.5rem;
+   font-family: "Roboto Slab", serif;
+   font-optical-sizing: auto;
+   font-weight: 800;
+   font-style: normal;
+   margin-left: 1.5rem;
+  letter-spacing: 0.16rem;
+  font-weight: 800;
+   color: transparent;
+    -webkit-text-stroke: 1px #ba0c2f;
+   -webkit-text-fill-color: #fff;
+}
+
+.inspiredCaption{
+  font-size: 5.5rem;
+ /* font-family: serif; */
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+ letter-spacing: 0.16rem;
+ /* line-height: 2rem; */
+ font-weight: 800;
+ /* text-align: center; */
+  color: transparent;
+  /* -webkit-text-stroke: 1px #fff; */
+   -webkit-text-stroke: 1px #ba0c2f;
+  /* -webkit-text-fill-color: #ba0c2f; */
+  -webkit-text-fill-color: #fff;
+
+}
+
+.helper{
+  height: 100vh;
+  background-color: goldenrod;
+
+}
+
+.pentagon-icon {
+  transform: rotate(180deg);
+}
+
+.span-pentagon{
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+
+/* sticky testing */
+.parent-container {
+  display: flex;
+}
+
+.sticky-container {
+  flex: 0 0 auto; /* This container won't grow or shrink */
+  position: sticky;
+  top: 0;
+  /* Additional styles for appearance */
+  width: 200px; /* Adjust according to your layout */
+  background-color: #f0f0f0; /* Just for visualization */
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.scrollable-container {
+  flex: 1; /* This container will take remaining space */
+  overflow-y: auto; /* Enable vertical scrolling */
+  /* Additional styles for appearance */
+  padding: 10px;
+
+  border: 3px solid red; /* Just for visualization */
+}
+
+
+
+/* Gtest styling */
+
+.div1, .div2{
+  height: 80vh;
+}
+
+.div1{
+  background-color: salmon;
+}
+
+.div2{
+  background-color: pink;
+  display: flex;
+  gap: 3rem;
+}
+
+.square{
+  height: 100px;
+  width: 60%;
+  background-color: brown;
+}
+
+.square2{
+  height: 100px;
+  width: 60%;
+  background-color: blue;
+  /* margin-top: 5rem; */
+}
